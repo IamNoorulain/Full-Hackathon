@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineHeart, AiOutlineShoppingCart, AiOutlineEye } from "react-icons/ai";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Footer from "../components/TheFooter";
 
 const shoplist = [
   {

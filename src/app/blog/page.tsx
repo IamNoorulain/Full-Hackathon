@@ -4,9 +4,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Footer from "../components/TheFooter";
 
-// Define TypeScript types for blog
+
 type Blog = {
   id: number;
   title: string;
@@ -17,7 +17,7 @@ type Blog = {
   image: string;
 };
 
-// Mock blog data for illustration purposes
+
 const blogs: Blog[] = [
   {
     id: 1,

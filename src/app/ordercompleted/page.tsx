@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Footer from "../components/TheFooter";
 
 function OrderCompleted() {
   return (

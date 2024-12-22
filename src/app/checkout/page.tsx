@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Footer from "../components/TheFooter";
 
 const CheckoutPage = () => {
   const [formData, setFormData] = useState({
