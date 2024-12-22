@@ -22,7 +22,9 @@ function Header() {
       <div className="w-full h-[80px] flex justify-center items-center border-b-2 bg-white z-30 relative">
         <div className="w-full max-w-[1200px] h-full flex justify-between items-center px-10">
           <div className="flex items-center gap-8">
-            <h1 className="text-3xl font-bold">Hekto</h1>
+            <Link href="/" className="text-3xl font-bold text-black">
+                Hekto
+              </Link>
 
             
           </div>
